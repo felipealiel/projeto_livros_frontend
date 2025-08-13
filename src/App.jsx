@@ -8,7 +8,7 @@ function App() {
   const [ano, setAno] = useState('');
 
   // URL da API (backend)
- const API_URL = 'https://projeto-livros-production.up.railway.app';
+ const API_URL = 'https://projetolivrosbackend-production-8742.up.railway.app/livros';
 
   // Buscar livros ao iniciar
   useEffect(() => {
