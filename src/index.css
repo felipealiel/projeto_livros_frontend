@@ -1,0 +1,75 @@
+/* Estilo global */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f6f8;
+  color: #333;
+}
+
+/* Container principal */
+.container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #eee8e8;
+  border-radius: 12px;
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+}
+
+/* Títulos */
+h1 {
+  text-align: center;
+  color: #2e0fc9;
+}
+
+/* Lista de livros */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background-color: #f9fafb;
+  border: 1px solid #ddd;
+  margin-bottom: 8px;
+  padding: 10px 15px;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li.read {
+  text-decoration: line-through;
+  color: #888;
+}
+
+/* Botões */
+button {
+  background-color: #1e88e5;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+button:hover {
+  background-color: #1565c0;
+}
+
+/* Formulário */
+form {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
